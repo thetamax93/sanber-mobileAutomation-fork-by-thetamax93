@@ -18,11 +18,6 @@ Prasyarat:
    Jika belum ada SDK/JRE silahkan download java dan android studio terbaru terlebih dahulu
 3. Jangan run appium dan appium inspector, karena appium akan jalan sendiri dari command 'npm run wdio'
 
-Script ini sudah dimodifikasi sedemikian rupa sehingga user hanya perlu run:
-
-```
-  npm run wdio
-```
 
 ----------------------------------------------------
 
