@@ -10,8 +10,11 @@ Prasyarat:
 
 1. Bikin Folder di desktop: C:\Users\Desktop\Workdocs\TOOL QA\Abbtools\android-sdk-windows
 2. Copas isian android sdk dari android studio dan java JRE ke folder android-sdk-windows diatas:
+    
     C:\Users\Username\AppData\Local\Android\Sdk > android
+    
     C:\Program Files\Java\jre1.8.0_231
+    
    Jika belum ada SDK/JRE silahkan download java dan android studio terbaru terlebih dahulu
 3. Jangan run appium dan appium inspector, karena appium akan jalan sendiri dari command 'npm run wdio'
 
