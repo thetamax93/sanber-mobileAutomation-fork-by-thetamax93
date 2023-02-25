@@ -1,0 +1,79 @@
+{
+  "version": "1.0",
+  "caps": [
+    {
+      "type": "text",
+      "name": "platformName",
+      "value": "Android"
+    },
+    {
+      "type": "text",
+      "name": "appium:automationName",
+      "value": "UiAutomation2"
+    },
+    {
+      "type": "text",
+      "name": "appium:deviceName",
+      "value": "TECNO LG7n"
+    },
+    {
+      "type": "text",
+      "name": "appium:platformVersion",
+      "value": "12"
+    },
+    {
+      "type": "text",
+      "name": "appium:app",
+      "value": "path.join(process.cwd(),'./test/apk/ApiDemos-debug.apk')"
+    },
+    {
+      "type": "text",
+      "name": "appium:appPackage",
+      "value": "io.appium.android.apis"
+    },
+    {
+      "type": "text",
+      "name": "appium:appActivity",
+      "value": ".ApiDemos"
+    },
+    {
+      "type": "boolean",
+      "name": "appium:noReset",
+      "value": true
+    },
+    {
+      "type": "boolean",
+      "name": "appium:forceAppLaunch",
+      "value": true
+    }
+  ],
+  "server": {
+    "local": {},
+    "remote": {
+      "path": "/wd/hub",
+      "port": "4723",
+      "hostname": "127.0.0.1",
+      "ssl": false
+    },
+    "sauce": {
+      "dataCenter": "us-west-1"
+    },
+    "headspin": {},
+    "browserstack": {},
+    "lambdatest": {},
+    "advanced": {
+      "allowUnauthorized": true,
+      "useProxy": false
+    },
+    "bitbar": {},
+    "kobiton": {},
+    "perfecto": {},
+    "pcloudy": {},
+    "testingbot": {},
+    "experitest": {},
+    "roboticmobi": {},
+    "remotetestkit": {}
+  },
+  "serverType": "remote",
+  "visibleProviders": []
+}
